@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="assets/img/favicon-32x32.png">
+	<title>Las Pircas</title>
+	<link rel="stylesheet" type="text/css" href="/css/estilos.css" media="screen" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Ramaraja&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a39fc70822.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- fila de logo + nav --> 
+
+	<div class="container">
+		<header class="title">
+				
+			<h1>Las Pircas</h1>	
+			<nav>
+				<ul>
+					<li><a  class="sinsubrayado" href="../Homepage/index.html">Inicio</a></li>
+					<li><a class="sinsubrayado" href="../Hombres">Hombres</a>
+						<ul>
+							<li><a class="sinsubrayado" href= "../Hombres/Apertura23.html"> Apertura 2023</a></li>
+							<li><a class="sinsubrayado" href="../Hombres/Clausura23.html">Clausura 2023</a></li>
+						</ul>
+					</li>
+					<li><a class="sinsubrayado" href="../Mujeres/">Mujeres</a>
+						<ul>
+							<li><a class="sinsubrayado" href="../Mujeres/Apertura23.html">Apertura 2023</a></li>
+							<li><a class="sinsubrayado" href="../Mujeres/Clausura23.html">Clausura 2023</a></li>
+						</ul>	
+					</li>
+					<li><a class="sinsubrayado" href= "../Registrate/Registrate.html"> Registrate</a></li>
+				</ul>
+			</nav>
+		</header>
+			<!-- cierre de fila logo + nav -->
+			<!-- fila de información de mi sitio -->
+		<div class="titulopag">
+			<h1>Formulario de registración</h1>
+		</div>
+		<div class="formulario">
+				
+    			<form action="#" method="post" enctype="multipart/form-data" >
+     				<div class="formulario-registración-Nombre Equipo">
+      			 		<label for="Nombre del Equipo">Nombre del Equipo</label>
+        				<input id="Nombre del Equipo" type="text" name="Nombre del equipo" placeholder="ingresá nombre del equipo">
+   					 </div>
+
+					
+    				<label>Has participado en otros torneos?</label>
+						<label>Chacra</label>
+      				<input type="radio" name="Torneos" value="Chacra">
+						<label>Cosa de serranos</leabel>    
+            		<input type="radio" name="Torneos" value="Cosa de serranos">
+						<label>Otros</label>    
+            		<input type="radio" name="Torneos" value="Otros">
+						<label for="Tipo de Equipo">Tipo de Equipo</label>
+     				<select name="Tipo Equipo">
+         				<option value="Mujeres">Mujeres</option>
+         				<option value="Hombres">Hombres</option>
+		
+					<textarea name="Integrantes" id="Integrantes" cols="30" rows="10" placeholder="Integrantes del equipo: Nombre y apellido, Dni, fecha nac"></textarea>
+					<div class="Email">
+						<label for="EMAIL">Email</label>
+  							 <input type="email" name="Email" placeholder="Escribe tu email">
+					</div>
+					<div>
+   						 <input type="submit" name="Enviar Formulario">
+    					<input type="reset" name="Limpiar Formulario">
+
+					</div>
+    			</form>
+		</div>			
+		<!-- inicio de footer --> 
+		<footer class="footer">
+
+			<div class="container__footer">	
+				
+				<div class="box__footer">
+				
+					<h2>Redes Sociales</h2>
+					<a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+					<a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+				</div>		
+				
+			<div class="box__footer">
+				<h2>Contacto</h2>
+					<a href="#"><i class="fa-solid fa-map-location-dot"></i>Dirección</a>
+					<a href="#"><i class="fa-brands fa-whatsapp"></i>Teléfono</a>
+					<a href="#"><i class="fa-solid fa-envelope"></i>Mail</a>
+			</div>
+			<div class="box__copyright">
+				<hr<p>© Copyright 2022- Todos los derechos reservados<b>Sánchez, Daniela</b></p>
+			</div>
+						
+		</footer>
+	</div>					
+</body>
+</html>
